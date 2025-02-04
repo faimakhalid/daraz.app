@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz Header</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <header class="daraz-header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#"><img src="d.png" alt="Daraz Logo"></a>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search in Daraz">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="nav-links">
+                <a href="#">Login</a>
+                <a href="#">Signup</a>
+                <a href="#">Orders</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </nav>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="d1.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="d111.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="d1c.jpg" alt="Slide 3"></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <div class="pink">
+        <img src="pinl.png" alt="" class="ab">
+    </div>
+    <section class="flash-sale">
+        <div class="sale-header">
+            <h2>Flash Sale</h2>
+            <span class="sale-badge">On Sale Now</span>
+            <button class="shop-btn">SHOP ALL PRODUCTS</button>
+        </div>
+
+        <div class="sale-items">
+            <div class="product">
+                <img src="shampo.jpg" alt="Product 1">
+                <p class="title">Jenpharm - Dermive Oil Free Moisturizer 100ml</p>
+                <p class="price">Rs. 893 <span class="old-price">Rs. 998</span> <span class="discount">-11%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="biryani.jpg" alt="Product 2">
+                <p class="title">Shan Biryani Masala - 45 gm</p>
+                <p class="price">Rs. 96 <span class="old-price">Rs. 140</span> <span class="discount">-31%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="head.jpg" alt="Product 3">
+                <p class="title">Air buds Air 31 Wireless Bluetooth</p>
+                <p class="price">Rs. 761 <span class="old-price">Rs. 2,999</span> <span class="discount">-75%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="phone.jpg" alt="Product 4">
+                <p class="title">Original P47 Headphone Wireless</p>
+                <p class="price">Rs. 778 <span class="old-price">Rs. 3,000</span> <span class="discount">-74%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="watch.jpg" alt="Product 5">
+                <p class="title">Original Air31 Air Pro Earbuds</p>
+                <p class="price">Rs. 719 <span class="old-price">Rs. 1,500</span> <span class="discount">-52%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="mic.jpg" alt="Product 6">
+                <p class="title">TWS I12 & i7s Airpods</p>
+                <p class="price">Rs. 336 <span class="old-price">Rs. 999</span> <span class="discount">-66%</span></p>
+            </div>
+        </div>
+    </section>
+    <section class="flash-sale">
+        <div class="sale-header">
+            <h2>just for you</h2>
+        </div>
+
+        <div class="sale-items">
+            <div class="product">
+                <img src="shampo.jpg" alt="Product 1">
+                <p class="title">Jenpharm - Dermive Oil Free Moisturizer 100ml</p>
+                <p class="price">Rs. 893 <span class="old-price">Rs. 998</span> <span class="discount">-11%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="biryani.jpg" alt="Product 2">
+                <p class="title">Shan Biryani Masala - 45 gm</p>
+                <p class="price">Rs. 96 <span class="old-price">Rs. 140</span> <span class="discount">-31%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="trimer.webp" alt="Product 3">
+                <p class="title">Air buds Air 31 Wireless Bluetooth</p>
+                <p class="price">Rs. 761 <span class="old-price">Rs. 2,999</span> <span class="discount">-75%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="dress.webp" alt="Product 4">
+                <p class="title">Original P47 Headphone Wireless</p>
+                <p class="price">Rs. 778 <span class="old-price">Rs. 3,000</span> <span class="discount">-74%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="barklet.webp" alt="Product 5">
+                <p class="title">Original Air31 Air Pro Earbuds</p>
+                <p class="price">Rs. 719 <span class="old-price">Rs. 1,500</span> <span class="discount">-52%</span></p>
+            </div>
+            <div class="product">
+                <img src="shampo.jpg" alt="Product 1">
+                <p class="title">Jenpharm - Dermive Oil Free Moisturizer 100ml</p>
+                <p class="price">Rs. 893 <span class="old-price">Rs. 998</span> <span class="discount">-11%</span></p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="flash-sale">
+        <div class="sale-header">
+            <h2>just for you</h2>
+        </div>
+
+        <div class="sale-items">
+            <div class="product">
+                <img src="shampo.jpg" alt="Product 1">
+                <p class="title">Jenpharm - Dermive Oil Free Moisturizer 100ml</p>
+                <p class="price">Rs. 893 <span class="old-price">Rs. 998</span> <span class="discount">-11%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="biryani.jpg" alt="Product 2">
+                <p class="title">Shan Biryani Masala - 45 gm</p>
+                <p class="price">Rs. 96 <span class="old-price">Rs. 140</span> <span class="discount">-31%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="trimer.webp" alt="Product 3">
+                <p class="title">Air buds Air 31 Wireless Bluetooth</p>
+                <p class="price">Rs. 761 <span class="old-price">Rs. 2,999</span> <span class="discount">-75%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="dress.webp" alt="Product 4">
+                <p class="title">Original P47 Headphone Wireless</p>
+                <p class="price">Rs. 778 <span class="old-price">Rs. 3,000</span> <span class="discount">-74%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="barklet.webp" alt="Product 5">
+                <p class="title">Original Air31 Air Pro Earbuds</p>
+                <p class="price">Rs. 719 <span class="old-price">Rs. 1,500</span> <span class="discount">-52%</span></p>
+            </div>
+            <div class="product">
+                <img src="biryani.jpg" alt="Product 2">
+                <p class="title">Shan Biryani Masala - 45 gm</p>
+                <p class="price">Rs. 96 <span class="old-price">Rs. 140</span> <span class="discount">-31%</span></p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="flash-sale">
+        <div class="sale-header">
+            <h2>just for you</h2>
+        </div>
+
+        <div class="sale-items">
+            <div class="product">
+                <img src="shampo.jpg" alt="Product 1">
+                <p class="title">Jenpharm - Dermive Oil Free Moisturizer 100ml</p>
+                <p class="price">Rs. 893 <span class="old-price">Rs. 998</span> <span class="discount">-11%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="wa1.webp" alt="Product 2">
+                <p class="title">Shan Biryani Masala - 45 gm</p>
+                <p class="price">Rs. 96 <span class="old-price">Rs. 140</span> <span class="discount">-31%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="trimer.webp" alt="Product 3">
+                <p class="title">Air buds Air 31 Wireless Bluetooth</p>
+                <p class="price">Rs. 761 <span class="old-price">Rs. 2,999</span> <span class="discount">-75%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="dress.webp" alt="Product 4">
+                <p class="title">Original P47 Headphone Wireless</p>
+                <p class="price">Rs. 778 <span class="old-price">Rs. 3,000</span> <span class="discount">-74%</span></p>
+            </div>
+
+            <div class="product">
+                <img src="barklet.webp" alt="Product 5">
+                <p class="title">Original Air31 Air Pro Earbuds</p>
+                <p class="price">Rs. 719 <span class="old-price">Rs. 1,500</span> <span class="discount">-52%</span></p>
+            </div>
+            <div class="product">
+                <img src="smart ld.jpg" alt="Product 5">
+                <p class="title">Original Air31 Air Pro Earbuds</p>
+                <p class="price">Rs. 719 <span class="old-price">Rs. 1,500</span> <span class="discount">-52%</span></p>
+            </div>
+        </div>
+    </section>
+    <div class="load-more">LOAD MORE</div>
+
+    <div class="footer">
+        <div class="footer-section">
+            <h3>Customer Care</h3>
+            <a href="#">Help Center</a>
+            <a href="#">How to Buy</a>
+            <a href="#">Corporate & Bulk Purchasing</a>
+            <a href="#">Returns & Refunds</a>
+            <a href="#">Daraz Shop</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Purchase Protection</a>
+            <a href="#">Daraz Pick up Points</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Daraz</h3>
+            <a href="#">About Us</a>
+            <a href="#">Digital Payments</a>
+            <a href="#">Daraz Donates</a>
+            <a href="#">Daraz Blog</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">NTN Number: 4012118-6</a>
+            <a href="#">STRN Number: 1700401211818</a>
+            <a href="#">Online Shopping App</a>
+            <a href="#">Online Grocery Shopping</a>
+            <a href="#">Daraz Exclusive</a>
+            <a href="#">Daraz University</a>
+            <a href="#">Sell on Daraz</a>
+            <a href="#">Join Daraz Affiliate Program</a>
+        </div>
+    <div class="app-section">
+        <p><img src="dar.png" alt="Daraz Logo" width="100"></p>
+        <p>Happy Shopping <br> <span style="color: #ff5500;">Download App</span></p>
+        <img src="w.png" alt="App Store">
+        <img src="q.png" alt="Google Play">
+        <img src="r.png" alt="App Gallery">
+    </div>
+</div>
+    <script>
+        let index = 0;
+        function moveSlide(direction) {
+            const slides = document.querySelector('.slides');
+            const totalSlides = document.querySelectorAll('.slide').length;
+            index = (index + direction + totalSlides) % totalSlides;
+            slides.style.transform = `translateX(${-index * 100}%)`;
+        }
+    </script>
+</body>
+</html>
